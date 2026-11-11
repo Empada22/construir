@@ -292,6 +292,6 @@ public class BuildHelper implements ModInitializer {
     }
 
     private static void msg(Player player, String text) {
-        player.displayClientMessage(Component.literal(text), true);
+        player.sendSystemMessage(Component.literal(text));
     }
 }
