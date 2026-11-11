@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "buildhelper",
+  "version": "${version}",
+  "name": "Build Helper",
+  "description": "Ajuda a construir paredes, pilares, pisos e telhados com uma varinha (graveto).",
+  "authors": ["Voce"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.buildhelper.BuildHelper"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
